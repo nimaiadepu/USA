@@ -33,7 +33,7 @@ def fetch_and_display_data(country_name, country_code, gdp_indicator_code, popul
     # Plotting GDP and Population
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
-    ax1.plot(gdp_df['Year'], gdp_df['GDP (trillion USD)'], label=f'{country_name} GDP (trillion USD)')
+    ax1.plot(gdp_df['Year\n'], gdp_df['GDP (trillion USD)'], label=f'{country_name} GDP (trillion USD)')
     ax1.set_ylabel('GDP (trillion USD)')
     ax1.set_xlabel('Year')
     ax1.set_title('Comparison of GDP')
