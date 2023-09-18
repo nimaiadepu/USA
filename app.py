@@ -4,8 +4,8 @@ import requests
 import matplotlib.pyplot as plt
 
 # Define the correct username and password
-CORRECT_USERNAME = 'your_username'
-CORRECT_PASSWORD = 'your_password'
+CORRECT_USERNAME = 'nimai'
+CORRECT_PASSWORD = 'iloverubin'
 
 # Function to fetch data from World Bank API
 def get_world_bank_data(country_code, indicator_code, start_date, end_date):
